@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userHelperInfo"
+            android:text="@string/userHelper"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="3dp" 
+            android:textSize="22sp" 
+            android:gravity="center_horizontal" 
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userHelperHeader"
+            android:text="@string/userHelperInfoHeader"
+            android:layout_below="@id/userHelperInfo" 
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2dp" 
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userHelperInfoMain"
+            android:text="@string/userHelperInfoMain"
+            android:layout_below="@id/userHelperHeader" 
+            android:layout_marginHorizontal="5dp"
+            android:textSize="17sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/GoBackButton6" 
+            android:text="@string/goBack"
+            android:layout_below="@id/userHelperInfoMain" 
+            android:layout_marginHorizontal="5dp" />
+
+        </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/arraySorterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project1"
+        android:layout_marginHorizontal="2pt"/>
+
+    <Button
+        android:id="@+id/UADemographicIndButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/project2"
+        android:layout_marginHorizontal="2pt"
+        android:layout_below="@id/arraySorterButton"/>
+
+    <Button
+        android:id="@+id/aboutAuthorButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aboutAuthor"
+        android:layout_marginHorizontal="2pt"
+        android:layout_below="@id/UADemographicIndButton"/>
+
+    <Button
+        android:id="@+id/userHelperButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/userHelper"
+        android:layout_marginHorizontal="2pt"
+        android:layout_below="@id/aboutAuthorButton"/>
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/enterAnArray"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/textView1" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:id="@+id/ArrayText"
+            android:inputType="text"
+            android:imeOptions="actionGo" />
+        <Button
+            android:text="@string/sort"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ArrayText"
+            android:id="@+id/SortButton"
+            android:layout_marginHorizontal="2.5dp" />
+        <Button
+            android:text="@string/fillRandom"
+            android:layout_height="wrap_content"
+            android:id="@+id/RandButton"
+            android:layout_width="190dp"
+            android:layout_below="@id/ClearButton"
+            android:layout_marginHorizontal="2.5dp" />
+        <Button
+            android:text="@string/export"
+            android:layout_height="wrap_content"
+            android:id="@+id/ExportButton"
+            android:layout_width="190dp"
+            android:layout_toRightOf="@id/RandButton"
+            android:layout_alignTop="@id/RandButton"
+            android:layout_marginHorizontal="2.5dp" />
+        <Button
+            android:text="@string/clear"
+            android:layout_height="wrap_content"
+            android:id="@+id/ClearButton"
+            android:layout_width="190dp"
+            android:layout_toRightOf="@id/SortButton"
+            android:layout_alignTop="@id/SortButton"
+            android:layout_marginHorizontal="2.5dp" />
+        <Button
+            android:text="@string/importFromFile"
+            android:layout_height="wrap_content"
+            android:id="@+id/ImportButton"
+            android:layout_width="190dp"
+            android:layout_below="@id/ExportButton"
+            android:layout_marginHorizontal="2.5dp" />
+        <Button
+            android:text="@string/goBack"
+            android:layout_height="wrap_content"
+            android:id="@+id/GoBackButton1"
+            android:layout_width="190dp"
+            android:layout_toRightOf="@id/ImportButton"
+            android:layout_alignTop="@id/ImportButton"
+            android:layout_marginHorizontal="2.5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ImportButton"
+            android:id="@+id/BubbleSortedArray" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/BubbleSortedArray"
+            android:id="@+id/CocktailSortedArray" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/CocktailSortedArray"
+            android:id="@+id/InsertionSortedArray" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/InsertionSortedArray"
+            android:id="@+id/MergeSortedArray" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/MergeSortedArray"
+            android:id="@+id/QuickSortedArray" />
+        <Microcharts.Droid.ChartView
+            android:id="@+id/chartView"
+            android:layout_below="@+id/QuickSortedArray"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:foregroundGravity="center_vertical"/>
+    </RelativeLayout>
+</ScrollView>

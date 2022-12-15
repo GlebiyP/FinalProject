@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="project1">Проєкт 1</string>
+    <string name="project2">Проєкт 2</string>
+    <string name="aboutAuthor">Про автора</string>
+    <string name="userHelper">Посібник користувача</string>
+    <string name="arraySorter">Array sorter</string>
+    <string name="enterAnArray">Уведіть масив</string>
+    <string name="sort">Відсортувати</string>
+    <string name="fillRandom">Заповнити рандомом</string>
+    <string name="export">Експортувати</string>
+    <string name="clear">Очистити</string>
+    <string name="importFromFile">Імпортувати</string>
+    <string name="goBack">Назад</string>
+    <string name="authorInfo">Виконав студент групи ТТП-41 Петрук Гліб</string>
+    <string name="db">База даних</string>
+    <string name="contacts">Контакти</string>
+    <string name="demographic_indicators">Демографічні показники України</string>
+    <string name="year">Рік</string>
+    <string name="urbanPopulation">Міське населення</string>
+    <string name="ruralPopulation">Сільське населення</string>
+    <string name="total">Усього</string>
+    <string name="getYears">Знайти роки, де зміна популяції від попереднього року не перевищувала x%</string>
+    <string name="getMaxChangeYear">Знайти рік, у який кількість населення змінилася найбільше</string>
+    <string name="search">Пошук</string>
+    <string name="userHelperInfoHeader">
+      \tФінальний проєкт складається з двох частин: перша - проєкт ArraySorter -
+      сортує масив п\'ятьма методами, виводить дані сортування та гістограму значень; друга - проєкт UkraineDemographicIndicators -
+      містить базу даних з демографічними показниками України за 30 років, виконує пошук років, де зміна популяції від попереднього
+      року не перевищувала x%, пошук року, у який кількість населення змінилася найбільше та пошук контактів, адреса яких у місті Київ.
+    </string>
+    <string name="userHelperInfoMain">
+      \tПри натисканні на кнопку \'Проєкт 1\' відкривається вікно проєкту ArraySorter.\n
+      \t - У поле вводить масив у форматі \'число пробіл ...\'. Наприклад, \'2 3 7 1 5\'.\n
+      \tНаявні кнопки:\n
+      \t- Відсортувати - сортує введений масив. Якщо масив уведено невірно, програма сповістить про це.\n
+      \t- Очистити - очищує сторінку.\n
+      \t- Заповнити рандомом - заповнює масив рандомними числами.\n
+      \t- Експортувати - експортує введений масив у файл.\n
+      \t- Імпортувати - імпортує масив з файлу.\n
+      \t- Назад - повертає на головну сторінку.\n
+      \n
+      \tПри натисканні на кнопку \'Проєкт 2\' відкривається вікно проєкту UkraineDemographicIndicators.\n
+      \tНаявні кнопки:\n
+      \t- База даних - відкриває сторінку з базою даних.\n
+      \tПри натисканні кнопок \'Пошук\' виконуються відповідні запити та результат з\'являється у вікні.\n
+      \tКнопка \'Назад\' повертає на попередню сторінку.\n
+      \t- Контакти - відкриває сторінку з контактами з адресою у місті Київ.\n
+      \tКнопка \'Назад\' повертає на попередню сторінку.\n
+      
+      \tКнопка \'Про автора\' відкриває сторінку з інформацією про автора.
+    </string>
+</resources>
